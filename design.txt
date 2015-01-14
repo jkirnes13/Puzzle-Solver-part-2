@@ -1,0 +1,25 @@
+CSX Puzzle Solver, Project Part 2:  Water & Clock
+
+Name: Julien Kirnes
+
+
+1. Explain how your common solver is able to work with both puzzles.
+
+It does not, was not able to make it work with both, but I know it would have involved
+adapting to arrayLists all throughout the puzzles
+
+2. What was the type of configuration you used for each puzzle?
+
+I used an arrayList configuration
+
+3. Starting with the Puzzle interface from part 1, what were the major
+changes and additions you had to make?
+
+I modified the neighbors so it took in ArrayList of integers and spit out ArrayList<ArrayList<Integer>>
+I also modified start so it was an ArrayList<Integers>
+
+
+4. What problems, if any, did you encounter when re-designing your 
+project from part 1?
+
+redesigning getNeighbors for water and redesigning the solver
